@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resep"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/sate"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textRecipeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sate Ayam"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/textIngredientsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bahan-bahan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textIngredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• 500 gram daging ayam fillet (potong dadu kecil)\n• Tusuk sate secukupnya (rendam dalam air selama 15-30 menit agar tidak mudah terbakar)"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+        <TextView
+            android:id="@+id/textIngredientsTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bumbu Marinasi (Untuk Merendam Ayam)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp" />
+        <TextView
+            android:id="@+id/textIngredients2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• 3 siung bawang putih (haluskan)\n• 1 sdm ketumbar bubuk\n• 1 sdm kecap manis1 sdm kecap manis\n• 1/2 sdt garam\n• 1 sdm air jeruk nipis1 sdm air jeruk nipis\n• 2 sdm minyak goreng"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+    </LinearLayout>
+</ScrollView>

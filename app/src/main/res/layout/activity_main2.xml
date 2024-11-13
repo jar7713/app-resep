@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_2"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:tooltipText="mainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="60dp"
+            android:src="@drawable/jempol" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginEnd="60dp"
+            android:backgroundTint="#673AB7"
+            android:textColor="#DAD1D4"
+            android:text="Cap Jempol"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="#03A9F4"
+        android:backgroundTint="#FF9800"
+        android:text="HOME"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autoText="false"
+        android:textColor="#DAD1D4"
+        android:padding="20dp"
+        android:text="Popular Resep"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="127dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="60dp"
+            android:src="@drawable/nasi_goreng" />
+
+        <ImageView
+            android:id="@+id/ImageView2"
+            android:layout_width="127dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="60dp"
+            android:src="@drawable/rendang" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="60dp"
+            android:foregroundTint="#DAD1D4"
+            android:text="Nasi Goreng"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#DAD1D4"
+            android:textColorLink="#03A9F4" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textColor="#DAD1D4"
+            android:layout_marginStart="60dp"
+            android:text="Rendang" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ImageView3"
+            android:layout_width="127dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="60dp"
+         android:src="@drawable/sate"/>
+        <ImageView
+            android:id="@+id/ImageView4"
+            android:layout_width="127dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="60dp"
+            android:src="@drawable/ayam" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="60dp"
+            android:text="Sate Ayam" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="60dp"
+            android:text="Ayam Goreng" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
